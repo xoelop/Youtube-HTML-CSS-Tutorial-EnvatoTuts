@@ -1,0 +1,221 @@
+/*
+************************
+* =body
+*************************/
+
+body {
+  background: #F1F1F1;
+}
+
+/*
+************************
+* =container
+*************************/
+
+.container_24 {
+  margin: auto;
+  margin-top: 10px;
+}
+
+/*
+************************
+* =misc
+*************************/
+
+p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #353535;
+}
+
+h1, h2 {
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 26px;
+  text-transform: lowercase;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 22px;
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+
+a {
+  color: #808080;
+  text-decoration: none;
+}
+
+a:hover, .selected {
+  color: black;
+}
+
+blockquote, blockquote p {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  color: #0e0e0e;
+}
+
+.button {
+  text-transform: uppercase;
+  color: lightgrey;
+  background: #232323;
+  padding: 7px;
+}
+
+.button:hover {
+  color: white;
+}
+
+/* .grid_4 {background: red;}
+.container_24 {background: green;}
+.grid_3 {background: orange;} */
+
+/*
+***********************
+=Header
+***********************
+*/
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -99999px;
+  width: 173px;
+  height: 23px;
+  float: left;
+  margin: 10px 10px 22px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav {
+  float: right;
+  padding-top: 12px;
+}
+
+nav a {
+  text-transform: lowercase;
+}
+
+/*
+***********************
+* =banner
+***********************
+*/
+
+.banner {
+  background: url(../img/city-bg.jpg) no-repeat;
+  width: 695px;
+  height: 231px;
+  clear: both;
+  position: relative;
+}
+
+.callout {
+  background: black;
+  width: 231px;
+  height: 231px;
+}
+
+/* .banner h2 {
+  position: relative;
+} */
+
+.banner h2 {
+  color: white;
+  font-size: 28px;
+  letter-spacing: -1px;
+  max-width: 430px;
+  font-weight: 300;
+  bottom: 0;
+  text-transform: lowercase;
+  background: rgba(100, 100, 100,0.7);;
+  position: absolute;
+  margin:10px;
+
+}
+
+/*
+***********************
+* =main
+***********************
+*/
+
+.main {
+  margin-top: 20px;
+}
+
+.main blockquote {
+  position: relative;
+}
+
+.main blockquote p {
+  padding-left: 30px;
+}
+
+.main blockquote p::before, .main blockquote p::after {
+  font-size: 40px;
+  color: #bfbfbf;
+  font-style: italic;
+}
+
+.main blockquote p:first-child::before {
+  content: '“';
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+
+.main blockquote p:last-child::after {
+  content: '”';
+  float: right;
+  position: absolute;
+  bottom: -7px;
+  right: 0;
+}
+
+/*
+************************
+* =footer
+*************************/
+
+footer {
+  clear: both;
+  padding: 30px 0px;
+  border-top: 1px solid #d1d1d1;
+  padding-top: 18px;
+  margin-top: 30px;
+}
+
+ /*
+ ************************
+ * =Work
+ *************************/
+
+.work img {
+  margin-bottom: 20px;
+}
+.work h2, h4 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.work h2 {
+  margin-bottom: 0;
+}
+
+.work h4 {
+  color: #787878;
+  line-height: 1.2em;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 33px;
+  margin-bottom: 30px;
+
+}

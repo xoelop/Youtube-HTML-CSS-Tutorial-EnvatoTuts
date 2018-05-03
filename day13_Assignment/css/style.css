@@ -1,0 +1,15 @@
+body {
+   background-color: lightgrey;
+   font-family: sans-serif;
+}
+
+blockquote{
+   text-align: center;
+   border: 1px solid white;
+   margin-left: 0px;
+}
+
+div {
+   width: 500px;
+   margin: auto;
+}
